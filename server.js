@@ -53,4 +53,6 @@ app.get('/',(req,res)=>{
 const surveyRoutes = require('./routes/surveyRoutes');
 app.use('/api/surveys', surveyRoutes);
 
+module.export = app;
+
 
